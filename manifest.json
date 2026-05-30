@@ -1,12 +1,15 @@
 {
   "name": "pogodaAPP",
   "short_name": "pogodaAPP",
+  "description": "Aplikacja do sprawdzania pogody na prawdę",
   "theme_color": "#8ddbe6",
   "background_color": "#ecedbb",
   "display": "browser",
   "orientation": "portrait",
+  "lang": "pl-PL",
+  "dir" : "ltr",
   "scope": "/",
-  "start_url": "/"
+  "start_url": "/",
   "icons" : [
     {
       "scr" : "./icon.png",
