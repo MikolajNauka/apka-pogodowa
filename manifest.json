@@ -1,0 +1,17 @@
+{
+  "name": "pogodaAPP",
+  "short_name": "pogodaAPP",
+  "theme_color": "#8ddbe6",
+  "background_color": "#ecedbb",
+  "display": "browser",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/"
+  "icons" : [
+    {
+      "scr" : "./icon.png",
+      "sizes" : "512x512",
+      "type" : "image/png"
+    }
+  ]
+}
