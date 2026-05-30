@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pogoda</title>
+    <script src="https://kit.fontawesome.com/45f554db4c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Aplikacja pogodowa</h1>
+    </header>
+    <main>
+        <div class="location">
+
+            <p class="city_name"></p>
+        </div>
+        <div>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="podaj nazwe miasta">
+        </div>
+
+        <div class="weather">
+            <div class="weather_top">
+                <p class="date"></p>
+                <div class="temp_info">
+                    <p class="temp"></p>
+                    <div>
+                        <p class="description"></p>
+                        <p class="feels_like"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="weather_bottom">
+                <div class="weather_info">
+                    <p><i class="fa-solid fa-wind"></i> Prędkość Wiatru</p>
+                    <p class="wind_speed"></p>
+                </div>
+                <div class="weather_info">
+                    <p><i class="fa-solid fa-weight-scale"></i> Ciśnienie</p>
+                    <p class="pressure"></p>
+                </div>
+                <div class="weather_info">
+                    <p><i class="fa-solid fa-droplet"></i> Wilgotność</p>
+                    <p class="humidity"></p>
+                </div>
+                <div class="weather_info">
+                    <p><i class="fa-solid fa-eye"></i> Widoczność</p>
+                    <p class="visibility"></p>
+                </div>
+                <div class="weather_info">
+                    <p><i class="fa-solid fa-cloud"></i> Zachmurzenie</p>
+                    <p class="clouds"></p>
+                </div>
+                <div class="weather_info">
+                    <p><i class="fa-solid fa-cloud-showers-heavy"></i> Opady</p>
+                    <p class="rain"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Projekt UWSB Merito Gdańsk 2026</p>
+        <p>Autor: Mikołaj M.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
